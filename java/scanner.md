@@ -7,4 +7,8 @@ import java.util.Scanner;
 ```java
 new Scanner(System.in).next();
 ```
-と記述する
+と記述する<br>
+下記のように変数を定義してあげると入力された値を扱うことができる。変数を定義するには、変数の宣言が必要である。
+```java
+String name = new Scanner(System.in).next();
+```
