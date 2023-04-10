@@ -12,3 +12,9 @@ new Scanner(System.in).next();
 ```java
 String name = new Scanner(System.in).next();
 ```
+なお、入力待ちにするには何かメッセージがあった方がわかりやすいので、例として
+```java
+System.out.print("Your name?");
+String name = new Scanner(System.in).next();
+```
+と記述する。
