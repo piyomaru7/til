@@ -19,5 +19,8 @@ String name = new Scanner(System.in).next();
 ```
 と記述する。
 
-## 補足
+## 補足1
 printlnは表示する際に改行ありになり、printとすると改行なしで表示が横並びになる。今回の場合、表示するメッセージが短いので改行なしのprintと記述する。
+
+## 補足2
+.nextの部分は整数を受け取るときはnextIntとする必要がある
